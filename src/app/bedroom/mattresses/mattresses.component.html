@@ -1,0 +1,271 @@
+<app-navbar></app-navbar>
+
+<div class="row">
+<div class="col-md-10 secdv">
+    <h3>SHOP BY SIZE</h3>
+</div>
+</div>
+<!--sizes row-->
+<div class="row imglft">
+<div class="col-md-3">
+<figure class="imgsize">
+  <a [routerLink]="['/king']">
+    <img src="assets/matt1.jpg">
+  </a>
+  <figcaption>
+    <p>King size 78x72</p>
+  </figcaption>
+</figure>
+</div>
+<div class="col-md-3">
+<figure class="imgsize">
+  <a [routerLink]="['/queen']">
+    <img src="assets/matt2.jpg">
+  </a>
+  <figcaption>
+    <p>Queen size 78x60</p>
+  </figcaption>
+</figure>
+</div>
+<div class="col-md-3">
+<figure class="imgsize">
+  <a [routerLink]="['/double']">
+    <img src="assets/matt3.png">
+  </a>
+  <figcaption>
+    <p>Double size 78x48</p>
+  </figcaption>
+</figure>
+</div>
+<div class="col-md-3">
+<figure class="imgsize">
+  <a [routerLink]="['/single']">
+    <img src="assets/matt4.jpg">
+  </a>
+  <figcaption>
+    <p>Single size 72x36</p>
+  </figcaption>
+</figure>
+</div>
+</div>
+
+<!--shop by type row-->
+<div class="row">
+  <div class="col-md-10 secdv">
+    <h3>SHOP BY TYPE</h3>
+  </div>
+</div>
+
+<!--matt types row-->
+<div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-md-1 imgcen">
+        <figure>
+          <a [routerLink]="['/foam']">
+           <img src="assets/foam1.jpg"  >
+          </a>
+          <figcaption>
+            <h5>Foam mattresses</h5>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 offset-md-1 imgcen">
+        <figure>
+          <a [routerLink]="['/coir']"> 
+              <img src="assets/coir.jpg"  >
+          </a>
+          <figcaption>
+            <h5>Coir mattresses</h5>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 offset-md-1 imgcen">
+          <figure>
+            <a [routerLink]="['/cotton']">
+             <img src="assets/cotton1.jpeg" type="jpeg">
+            </a>
+            <figcaption>
+                <h5>Cotton mattresses</h5>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 offset-md-1 imgcen">
+          <figure>
+            <a [routerLink]="['/spring']"> 
+                <img src="assets/spring.jpg" >
+            </a>
+            <figcaption>
+                <h5>Spring mattresses</h5>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+  </div>
+
+    <!--new and popular row-->
+<div class="row">
+  <div class="col-md-10 secdv">
+    <h3>NEW AND POPULAR</h3>
+  </div>
+</div>
+<!--new and popular comp row 1-->
+<div class="row " style="padding-left: 4%;margin-top: 2%;">
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/foam-matt1']">
+          <img src="assets/matt1.jpg">
+        </a>
+        <figcaption>
+          <h6>Foam mattress</h6>
+          <p>2000 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt2.jpg">
+        </a>
+        <figcaption>
+            <h6>coir mattress </h6>
+            <p>2100 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt1.jpg">
+        </a>
+        <figcaption>
+            <h6>Foam mattress</h6>
+            <p>2000 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt4.jpg">
+        </a>
+        <figcaption>
+            <h6>spring mattress</h6>
+            <p>2300 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+  </div>
+<!--new and popular comp row 2-->
+<div class="row imglft1 ">
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt1.jpg">
+        </a>
+        <figcaption>
+          <h6>Foam mattress</h6>
+          <p>2000 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt3.png">
+        </a>
+        <figcaption>
+            <h6>cotton mattress </h6>
+            <p>3000 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt3.png">
+        </a>
+        <figcaption>
+            <h6>cotton mattress</h6>
+            <p>3000 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt4.jpg">
+        </a>
+        <figcaption>
+            <h6>spring mattress</h6>
+            <p>2300 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+  </div>
+<!--new and popular comp row 3-->
+<div class="row imglft1 ">
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt3.png">
+        </a>
+        <figcaption>
+          <h6>cotton mattress</h6>
+          <p>3000 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt1.jpg">
+        </a>
+        <figcaption>
+            <h6>Foam mattress </h6>
+            <p>2000 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt4.jpg">
+        </a>
+        <figcaption>
+            <h6>Light modern</h6>
+            <p>6500 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+    <div class="col-md-3">
+      <figure class="imgrest">
+        <a [routerLink]="['/']">
+          <img src="assets/matt2.jpg">
+        </a>
+        <figcaption>
+            <h6>coir mattress</h6>
+            <p>2100 INR</p>
+        </figcaption>
+        <button  type="button"  class="btn btn-default btn-md">Add to cart</button>
+      </figure>
+    </div>
+  </div>
+  
+
+
+<div>
+  <app-footer></app-footer>
+</div>

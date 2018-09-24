@@ -1,0 +1,49 @@
+.secdv{
+    margin-top: 5.8%;
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+.secdv1{
+    margin-top: 2%;
+}
+.secdv1 h3{
+    padding-left: 5%;
+}
+.butdv button{
+    background-color: #132226;
+    color: white;
+    border-radius: 4px;
+    margin-top: 23%;
+}
+.butdv{
+    float: right;
+    padding-left: 5%;
+    margin-top: -3%;
+}
+figure{
+    padding-left: 7%;
+    margin-top: 5%;
+}
+figure img{
+    width: 250px;
+    height: 200px;
+}
+figcaption{
+    text-align: center;
+}
+figcaption p{
+    font-family: opensans;
+}
+.imgrest figcaption h6{
+    margin-left: -7%;
+}
+.imgrest figcaption p{
+    margin-left: -7%;
+}
+.but button{
+    background-color: #343a40;
+    color: whitesmoke;
+    margin-left: 22%;
+}

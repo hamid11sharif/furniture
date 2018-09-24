@@ -1,0 +1,24 @@
+form{
+    margin-top: 100px;  
+    padding-bottom: 8%;
+    height: 300px;
+    font-family: opensans;
+    
+}
+input{
+    width: 50%;
+}
+.formk{
+    padding-left: 35%;
+    margin-top: 10%;
+}
+a{
+    text-decoration: none;
+    padding-left: 2%;
+}
+.help{
+    margin-bottom: 2%;
+}
+.ftup{
+    margin-top: -0.4%;
+}

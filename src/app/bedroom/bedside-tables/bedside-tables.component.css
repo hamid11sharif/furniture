@@ -1,0 +1,32 @@
+.secdv{
+    margin-top: 6%;
+    padding-left: 3%;
+}
+.secdv h3{
+    font-family: opensans;
+}
+figcaption{
+    text-align: center;
+}
+figcaption p{
+    font-family: opensans;
+}
+.imglft1{
+    padding-left: 4%;
+    margin-top: 10%;
+}
+.imgrest img{
+    width: 250px;
+    height: 200px;
+}
+.imgrest figcaption h6{
+    margin-left: -7%;
+}
+.imgrest figcaption p{
+    margin-left: -7%;
+}
+button{
+    background-color: #343a40;
+    color: whitesmoke;
+    margin-left: 25%;
+}

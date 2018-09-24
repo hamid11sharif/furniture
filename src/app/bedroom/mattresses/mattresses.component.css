@@ -1,0 +1,50 @@
+.secdv{
+    margin-top: 6%;
+    padding-left: 3%;
+}
+.secdv h3{
+   font-family: opensans
+}
+figcaption{
+    text-align: center;
+}
+figcaption h5{
+    font-family: opensans;
+    margin-left: 20%;
+}
+.imgsize img{
+    width: 290px;
+    height: 200px;
+}
+.imglft{
+    padding-left: 2%;
+    margin-top: 1%;
+}
+.imgcen{
+    padding-left: 5%; 
+    margin-top: 4%;
+}
+.imgcen img{
+    width: 400px;
+    height: 300px;
+    margin-top: 10%;
+}
+.imgrest img{
+    width: 250px;
+    height: 200px;
+}
+.imgrest figcaption h6{
+    margin-left: -7%;
+}
+.imgrest figcaption p{
+    margin-left: -7%;
+}
+.imglft1{
+    padding-left: 4%;
+    margin-top: 10%;
+}
+button{
+    background-color: #343a40;
+    color: whitesmoke;
+    margin-left: 25%;
+}
